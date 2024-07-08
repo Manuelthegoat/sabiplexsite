@@ -65,48 +65,29 @@ const Hero = () => {
                       </div>
                     </form>
                     <div class="banner-tags-wrapper">
+                    
                       <div class="single-tags-banner">
-                        <p>UI/UX Design</p>
+                        <p>Computer Science</p>
                       </div>
 
                       <div class="single-tags-banner">
-                        <p>Web Design</p>
+                        <p>UNN</p>
                       </div>
 
                       <div class="single-tags-banner">
-                        <p>Marketing</p>
+                        <p>UNEC</p>
                       </div>
 
                       <div class="single-tags-banner">
-                        <p>Digital Marketing</p>
+                        <p>Medicine</p>
                       </div>
 
                       <div class="single-tags-banner">
-                        <p>Finance</p>
+                        <p>Engineering</p>
                       </div>
 
                       <div class="single-tags-banner">
-                        <p>Dancing</p>
-                      </div>
-
-                      <div class="single-tags-banner">
-                        <p>Lifestyle</p>
-                      </div>
-
-                      <div class="single-tags-banner">
-                        <p>Music</p>
-                      </div>
-
-                      <div class="single-tags-banner">
-                        <p>Business</p>
-                      </div>
-
-                      <div class="single-tags-banner">
-                        <p>SEO</p>
-                      </div>
-
-                      <div class="single-tags-banner">
-                        <p>Java</p>
+                        <p>Arts</p>
                       </div>
                     </div>
                   </div>

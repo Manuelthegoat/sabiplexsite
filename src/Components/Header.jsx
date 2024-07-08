@@ -104,7 +104,7 @@ const Header = () => {
             <div class="col-lg-12">
               <div class="header-one-wrapper">
                 <div class="left-side-header">
-                  <a href="index.html" class="logo-area">
+                  <a href="/" class="logo-area">
                     <img src="assets/logo.png" alt="logo" className="logoimg" />
                   </a>
                 </div>
@@ -113,18 +113,18 @@ const Header = () => {
                   <nav>
                     <ul>
                       <li class="" style={{ position: "static" }}>
-                        <a class="nav-link" href="index.html#">
+                        <a class="nav-link" href="/">
                           Home
                         </a>
                       </li>
 
                       <li class="">
-                        <a class="nav-link" href="index.html#">
+                        <a class="nav-link" href="/">
                           About Us
                         </a>
                       </li>
                       <li class="has-dropdown" style={{ position: "static" }}>
-                        <a class="nav-link" href="index.html#">
+                        <a class="nav-link" >
                           Courses
                         </a>
                         <ul class="megamenu-hub min-mega shape-move">
