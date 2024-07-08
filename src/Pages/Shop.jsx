@@ -27,7 +27,7 @@ const Shop = () => {
             {dummyData.map((item) => (
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb--30">
               <div class="single-shopping-product">
-                <a href="product-details.html" class="thumbnail">
+                <a href="/product-details" class="thumbnail">
                   <img src={item.image} alt="shopping" className="product-image" />
                 </a>
                 <div class="inner-content">

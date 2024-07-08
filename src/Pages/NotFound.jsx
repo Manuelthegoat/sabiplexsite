@@ -3,7 +3,7 @@ import React from "react";
 const NotFound = () => {
   return (
     <>
-    <div className="space2"></div>
+    <div className="space"></div>
       <div class="rts-404-area-start">
         <div class="container">
           <div class="row">

@@ -6,7 +6,7 @@ import { useState } from "react";
 import LoginSignUp from "./Components/LoginSignUp";
 
 function App() {
-  const [authenticated, setAuthenticated] = useState(false);
+  const [authenticated, setAuthenticated] = useState(true);
   return (
     <>
       {authenticated === true ? (
