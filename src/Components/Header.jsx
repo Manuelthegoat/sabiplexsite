@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { dummyData } from "../dummydata";
 
 const Header = () => {
   const [className, setClassName] = useState("cart-bar");
   const [className2, setClassName2] = useState("search-input-area");
   return (
     <>
+    {/* ====== HEADER STARTS ======== */}
       <header class="header-one header--sticky fixed">
         <div class="header-top-one-wrapper">
           <div class="container">
@@ -68,7 +70,7 @@ const Header = () => {
                     <ul class="rts-dropdown-menu switcher-currency">
                       <li class="has-child-menu">
                         <a href="index.html#">
-                          <span class="menu-item">USD</span>
+                          <span class="menu-item">Naira (₦)</span>
                           <i class="fa-regular fa-chevron-down"></i>
                         </a>
                         <ul class="sub-menu">
@@ -79,7 +81,7 @@ const Header = () => {
                           </li>
                           <li>
                             <a href="index.html#">
-                              <span class="menu-item">Real</span>
+                              <span class="menu-item">USD</span>
                             </a>
                           </li>
                           <li>
@@ -114,167 +116,14 @@ const Header = () => {
                           Home
                         </a>
 
-                        {/* <ul class="megamenu-hub">
-                          <li>
-                            <ul class="">
-                              <li>
-                                <a href="index.html">Main Home</a>
-                              </li>
-                              <li>
-                                <a href="index-two.html">Online course </a>
-                                <span class="popular">Popular</span>
-                              </li>
-                              <li>
-                                <a href="index-three.html">Course hub</a>
-                                <span>Hot</span>
-                              </li>
-                              <li>
-                                <a href="index-four.html">Distance learning</a>
-                              </li>
-                              <li>
-                                <a href="index-five.html">Single Instructor</a>
-                                <span>Hot</span>
-                              </li>
-                            </ul>
-                            <ul class="">
-                              <li>
-                                <a href="index-six.html">Language Academy</a>
-                                <span>Hot</span>
-                              </li>
-                              <li>
-                                <a href="index-seven.html">Gym Instructor</a>
-                              </li>
-                              <li>
-                                <a href="index-eight.html">Kitchen coach</a>
-                                <span class="popular">Popular</span>
-                              </li>
-                              <li>
-                                <a href="index-nine.html">Course Portal</a>
-                              </li>
-                              <li>
-                                <a href="index-ten.html">Business coach</a>
-                              </li>
-                            </ul>
-                            <div class="absolute-image-shape shape-image">
-                              <img
-                                class=" shape one"
-                                src="assets/images/nav/02.png"
-                                data-speed="0.04"
-                                data-revert="true"
-                                alt="nav"
-                              />
-                              <img
-                                class=" shape two"
-                                src="assets/images/nav/03.png"
-                                data-speed="0.04"
-                                alt="nav"
-                              />
-                            </div>
-                            <div class="nav-mega-image">
-                              <a href="single-course.html">
-                                <img src="assets/images/nav/01.jpg" alt="nav" />
-                              </a>
-                            </div>
-                          </li>
-                        </ul> */}
+                    
                       </li>
 
                       <li class="">
                         <a class="nav-link" href="index.html#">
                           About Us
                         </a>
-                        {/* <ul class="submenu">
-                          <li>
-                            <a href="about.html">About Us</a>
-                          </li>
-                          <li>
-                            <a href="about-two.html">About Two</a>
-                          </li>
-                          <li>
-                            <a href="instructor-profile.html">Profile</a>
-                          </li>
-                          <li>
-                            <a href="contact.html">Contact</a>
-                          </li>
-                          <li class="sub-dropdown">
-                            <a href="javascript:void(0);">Zoom</a>
-                            <ul class="submenu third-lvl base">
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="zoom-meeting.html"
-                                >
-                                  Zoom Meeting
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="zoom-details.html"
-                                >
-                                  Zoom Details
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li class="sub-dropdown">
-                            <a href="javascript:void(0);">Event</a>
-                            <ul class="submenu third-lvl base">
-                              <li>
-                                <a class="mobile-menu-link" href="event.html">
-                                  Event
-                                </a>
-                              </li>
-                              <li>
-                                <a class="mobile-menu-link" href="event-2.html">
-                                  Event Two
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="event-details.html"
-                                >
-                                  Event Details
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li class="sub-dropdown">
-                            <a href="javascript:void(0);">Shop</a>
-                            <ul class="submenu third-lvl base">
-                              <li>
-                                <a class="mobile-menu-link" href="shop.html">
-                                  Shop
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="product-details.html"
-                                >
-                                  Product Details
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="checkout.html"
-                                >
-                                  Checkout
-                                </a>
-                              </li>
-                              <li>
-                                <a class="mobile-menu-link" href="cart.html">
-                                  Cart
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="404.html">Error 404</a>
-                          </li>
-                        </ul> */}
+                     
                       </li>
                       <li class="has-dropdown" style={{ position: "static" }}>
                         <a class="nav-link" href="index.html#">
@@ -286,52 +135,14 @@ const Header = () => {
                               <li class="parent">
                                 <a href="index.html#">Courses</a>
                               </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="course-one.html"
-                                >
-                                  Courses
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="course-two.html"
-                                >
-                                  Course List
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="course-three.html"
-                                >
-                                  Course Grid
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="course-four.html"
-                                >
-                                  Course List Two
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="course-five.html"
-                                >
-                                  Course Grid Two
-                                </a>
-                              </li>
+                            
+                            
                               <li>
                                 <a
                                   class="mobile-menu-link"
                                   href="course-six.html"
                                 >
-                                  Course Grid Three
+                                  Something here
                                 </a>
                               </li>
                             </ul>
@@ -522,75 +333,43 @@ const Header = () => {
           </div>
         </div>
       </header>
+
+
+{/* ========= HEADER ENDS ========= */}
+
+
+
+ {/* ============ CART STARTS ========== */}
+
+
       <div className={className}>
         <div class="cart-header">
-          <h3 class="cart-heading">MY CART (3 ITEMS)</h3>
+          <h3 class="cart-heading">MY CART ({dummyData.length} ITEMS)</h3>
           <div class="close-cart" onClick={() => setClassName("cart-bar")}>
             <i class="fal fa-times"></i>
           </div>
         </div>
         <div class="product-area">
+          {dummyData.map((item) => (
           <div class="product-item">
             <div class="product-detail">
               <div class="product-thumb">
                 <img
-                  src="assets/images/course/cart/01.jpg"
+                  src={item.image}
                   alt="product-thumb"
                 />
               </div>
               <div class="item-wrapper">
-                <span class="product-name">Construct Map</span>
-                <div class="item-wrapper">
+                <span class="product-name">{item.title}</span>
+                {/* <div class="item-wrapper">
                   <span class="product-variation">
                     <span class="color">Green /</span>
                     <span class="size">XL</span>
                   </span>
-                </div>
+                </div> */}
                 <div class="item-wrapper">
-                  <span class="product-qnty">3 ×</span>
-                  <span class="product-price">$198.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="cart-edit">
-              <div class="quantity-edit">
-                <button class="button">
-                  <i class="fal fa-minus minus"></i>
-                </button>
-                <input type="text" class="input" value="3" />
-                <button class="button plus">
-                  +<i class="fal fa-plus plus"></i>
-                </button>
-              </div>
-              <div class="item-wrapper d-flex mr--5 align-items-center">
-                <a href="index-two.html#" class="product-edit">
-                  <i class="fal fa-edit"></i>
-                </a>
-                <a href="index-two.html#" class="delete-cart">
-                  <i class="fal fa-times"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="product-item">
-            <div class="product-detail">
-              <div class="product-thumb">
-                <img
-                  src="assets/images/course/cart/02.jpg"
-                  alt="product-thumb"
-                />
-              </div>
-              <div class="item-wrapper">
-                <span class="product-name"> Bridge product</span>
-                <div class="item-wrapper">
-                  <span class="product-variation">
-                    <span class="color">Green /</span>
-                    <span class="size">XL</span>
-                  </span>
-                </div>
-                <div class="item-wrapper">
-                  <span class="product-qnty">2 ×</span>
-                  <span class="product-price">$88.00</span>
+                  <span class="product-qnty">{item.quantity ? item.quantity : "2"}</span>
+                  <span class="product-price">&nbsp;|| {item.price}</span>
                 </div>
               </div>
             </div>
@@ -605,74 +384,38 @@ const Header = () => {
                 </button>
               </div>
               <div class="item-wrapper d-flex mr--5 align-items-center">
-                <a href="index-two.html#" class="product-edit">
-                  <i class="fal fa-edit"></i>
-                </a>
-                <a href="index-two.html#" class="delete-cart">
-                  <i class="fal fa-times"></i>
+             
+                <a  class="delete-cart">
+                  <i class="fal fa-trash text-danger"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="product-item last-child">
-            <div class="product-detail">
-              <div class="product-thumb">
-                <img
-                  src="assets/images/course/cart/03.jpg"
-                  alt="product-thumb"
-                />
-              </div>
-              <div class="item-wrapper">
-                <span class="product-name">Labour helmet</span>
-                <div class="item-wrapper">
-                  <span class="product-variation">
-                    <span class="color">Green /</span>
-                    <span class="size">XL</span>
-                  </span>
-                </div>
-                <div class="item-wrapper">
-                  <span class="product-qnty">1 ×</span>
-                  <span class="product-price">$289.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="cart-edit">
-              <div class="quantity-edit">
-                <button class="button">
-                  <i class="fal fa-minus minus"></i>
-                </button>
-                <input type="text" class="input" value="2" />
-                <button class="button plus">
-                  +<i class="fal fa-plus plus"></i>
-                </button>
-              </div>
-              <div class="item-wrapper d-flex mr--5 align-items-center">
-                <a href="index-two.html#" class="product-edit">
-                  <i class="fal fa-edit"></i>
-                </a>
-                <a href="index-two.html#" class="delete-cart">
-                  <i class="fal fa-times"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+          ))}
+   
         </div>
         <div class="cart-bottom-area">
           <span class="spend-shipping">
             <i class="fal fa-truck"></i> SPENT{" "}
-            <span class="amount">$199.00</span> MORE FOR FREE SHIPPING
+            <span class="amount">₦199.00</span> MORE FOR FREE SHIPPING
           </span>
           <span class="total-price">
-            TOTAL: <span class="price">$556</span>
+            TOTAL: <span class="price">₦556</span>
           </span>
-          <a href="checkout.html" class="checkout-btn cart-btn">
+          <a href="/checkout" class="checkout-btn cart-btn">
             PROCEED TO CHECKOUT
           </a>
-          <a href="cart.html" class="view-btn cart-btn">
+          <a href="/cart" class="view-btn cart-btn">
             VIEW CART
           </a>
         </div>
       </div>
+
+
+
+{/* ========= CART ENDS ============ */}
+
+
       <div id="side-bar" class="side-bar header-two">
         <button class="close-icon-menu">
           <i class="far fa-times"></i>

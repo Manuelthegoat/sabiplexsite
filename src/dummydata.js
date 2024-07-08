@@ -1,18 +1,38 @@
 export const dummyData = [
   {
+    id: 0,
     image: require("./Assets/varlc01.jpg"),
-    title: "PHY 191 workbook",
+    title: "GSP 101 workbook",
     price: "1700",
     discount: "5545",
-    artist: "Burna",
+    faculty: "general",
+    department: "general",
   },
-    {
-      image: require("./Assets/varlc03.jpg"),
-      title: "PHY 191 workbook",
-      price: "1700",
-      discount: "3444",
-      artist: "Burna",
-    },
-    // ... add more items as you need
-  ];
-  
+  {
+    id: 1,
+    image: require("./Assets/varlc03.jpg"),
+    title: "PHY 191 workbook",
+    price: "1700",
+    discount: "3444",
+    faculty: "Physical Sciences",
+    department: "general",
+  },
+  {
+    id: 2,
+    image: require("./Assets/varlc7.jpg"),
+    title: "PHY 433",
+    price: "1700",
+    discount: "3444",
+    faculty: "Physical Sciences",
+    department: "general",
+  },
+  {
+    id: 3,
+    image: require("./Assets/varlc3.jpg"),
+    title: "PCL 353",
+    price: "1700",
+    discount: "3444",
+    faculty: "Pharmacy",
+    department: "general",
+  },
+];

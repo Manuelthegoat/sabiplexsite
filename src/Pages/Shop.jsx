@@ -5,7 +5,6 @@ const Shop = () => {
   return (
     <>
       <div className="space2"></div>
-      {/* <div>space</div> */}
       <div class="shopping-area-start rts-section-gap">
         <div class="container">
           <div class="row align-items-center rs-vertical-middle shorting mb-50 md-mb-30">
@@ -29,7 +28,7 @@ const Shop = () => {
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb--30">
               <div class="single-shopping-product">
                 <a href="product-details.html" class="thumbnail">
-                  <img src={item.image} alt="shopping" />
+                  <img src={item.image} alt="shopping" className="product-image" />
                 </a>
                 <div class="inner-content">
                   <a href="product-details.html">
@@ -41,10 +40,10 @@ const Shop = () => {
                         <span class="active">₦{item.price}</span>
                         <span class="none">₦{item.discount}</span>
                       </div>
-                      <a href="product-details.html" class="cart-btn">
+                      <button  class="cart-btn">
                         <i class="fa-regular fa-cart-shopping"></i>
                         <span>Buy Now</span>
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
