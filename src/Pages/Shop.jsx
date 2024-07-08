@@ -5,6 +5,7 @@ const Shop = () => {
   return (
     <>
       <div className="space2"></div>
+      {/* <div>space</div> */}
       <div class="shopping-area-start rts-section-gap">
         <div class="container">
           <div class="row align-items-center rs-vertical-middle shorting mb-50 md-mb-30">
