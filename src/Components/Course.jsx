@@ -179,8 +179,8 @@ const Course = () => {
                         </div>
                       </div>
                       <div class="price-area">
-                        <div class="not price">$79.99</div>
-                        <div class="price">$79.99</div>
+                        <div class="not price">₦79.99</div>
+                        <div class="price">₦79.99</div>
                       </div>
                     </div>
                   </div>
@@ -245,7 +245,7 @@ const Course = () => {
                         </div>
                       </div>
                       <div class="price-area">
-                        <div class="price">$79.99</div>
+                        <div class="price">₦79.99</div>
                       </div>
                     </div>
                   </div>
@@ -307,8 +307,8 @@ const Course = () => {
                         </div>
                       </div>
                       <div class="price-area">
-                        <div class="not price">$79.99</div>
-                        <div class="price">$79.99</div>
+                        <div class="not price">₦79.99</div>
+                        <div class="price">₦79.99</div>
                       </div>
                     </div>
                   </div>
@@ -373,8 +373,8 @@ const Course = () => {
                         </div>
                       </div>
                       <div class="price-area">
-                        <div class="not price">$79.99</div>
-                        <div class="price">$79.99</div>
+                        <div class="not price">₦79.99</div>
+                        <div class="price">₦79.99</div>
                       </div>
                     </div>
                   </div>
@@ -439,8 +439,8 @@ const Course = () => {
                         </div>
                       </div>
                       <div class="price-area">
-                        <div class="not price">$79.99</div>
-                        <div class="price">$79.99</div>
+                        <div class="not price">₦79.99</div>
+                        <div class="price">₦79.99</div>
                       </div>
                     </div>
                   </div>
