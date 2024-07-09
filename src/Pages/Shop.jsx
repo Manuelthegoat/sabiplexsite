@@ -1,5 +1,6 @@
 import React from "react";
 import { dummyData } from "../dummydata";
+import OurApp from "../Components/OurApp";
 
 const Shop = () => {
   return (
@@ -25,32 +26,35 @@ const Shop = () => {
 
           <div class="row g-24 mt--0">
             {dummyData.map((item) => (
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb--30">
-              <div class="single-shopping-product">
-                <a href="/product-details" class="thumbnail">
-                  <img src={item.image} alt="shopping" className="product-image" />
-                </a>
-                <div class="inner-content">
-                  <a href="product-details.html">
-                    <h6 class="title">{item.title}</h6>
+              <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb--30">
+                <div class="single-shopping-product">
+                  <a href="/product-details" class="thumbnail">
+                    <img
+                      src={item.image}
+                      alt="shopping"
+                      className="product-image"
+                    />
                   </a>
-                  <div class="button-cart-area">
-                    <div class="inner">
-                      <div class="pricing-area">
-                        <span class="active">₦{item.price}</span>
-                        <span class="none">₦{item.discount}</span>
+                  <div class="inner-content">
+                    <a href="product-details.html">
+                      <h6 class="title">{item.title}</h6>
+                    </a>
+                    <div class="button-cart-area">
+                      <div class="inner">
+                        <div class="pricing-area">
+                          <span class="active">₦{item.price}</span>
+                          <span class="none">₦{item.discount}</span>
+                        </div>
+                        <button class="cart-btn">
+                          <i class="fa-regular fa-cart-shopping"></i>
+                          <span>Buy Now</span>
+                        </button>
                       </div>
-                      <button  class="cart-btn">
-                        <i class="fa-regular fa-cart-shopping"></i>
-                        <span>Buy Now</span>
-                      </button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
             ))}
-           
           </div>
           <div class="row g-24 mt--0"></div>
           <div class="row mt--30">
@@ -80,6 +84,8 @@ const Shop = () => {
           </div>
         </div>
       </div>
+
+      <OurApp />
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const LoginSignUp = ({ setAuthenticated }) => {
+const LoginSignUp = ({ setShowLogin }) => {
   return (
     <>
       <div class="login-registration-wrapper">
@@ -35,7 +35,7 @@ const LoginSignUp = ({ setAuthenticated }) => {
                       <br />
                     </div>
                   </div>
-                  <button class="rts-btn btn-primary" onClick={() => setAuthenticated(true)}>Login</button>
+                  <button class="rts-btn btn-primary" onClick={() => setShowLogin(false)}>Login</button>
 
                   <div class="google-apple-wrapper">
                     <div class="google">

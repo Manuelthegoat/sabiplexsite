@@ -2,7 +2,7 @@
  *
  * -----------------------------------------------------------------------------
  *
- * Template : Studyhub - Education and LMS HTML Template
+ * Template : Sabiplex - Education and LMS HTML Template
  * Author : reacthemes
  * Author URI : https://reactheme.com/ 
  *

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { dummyData } from "../dummydata";
 
-const Header = () => {
+const Header = ({setShowLogin}) => {
   const [className, setClassName] = useState("cart-bar");
   const [className2, setClassName2] = useState("search-input-area");
   const [className3, setClassName3] = useState("side-bar");
@@ -15,10 +15,10 @@ const Header = () => {
               <div class="col-lg-12">
                 <div class="header-top-one">
                   <div class="left-information">
-                    <a href="mailto:someone@example.com" class="email">
+                    <a href="mailto:info@sabiplexapp.com" class="email">
                       <i class="fa-light fa-envelope"></i>info@sabiplexapp.com
                     </a>
-                    <a href="tel:+4733378901" class="email">
+                    <a href="tel:+2347088239725" class="email">
                       <i class="fa-light fa-phone"></i>+234 708 823 9725
                     </a>
                   </div>
@@ -124,7 +124,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li class="has-dropdown" style={{ position: "static" }}>
-                        <a class="nav-link" >
+                        <a class="nav-link" href="/courses" >
                           Courses
                         </a>
                         <ul class="megamenu-hub min-mega shape-move">
@@ -145,54 +145,16 @@ const Header = () => {
                             </ul>
                             <ul class="">
                               <li class="parent">
-                                <a href="index.html#">Courses Details</a>
+                                <a href="index.html#">Courses</a>
                               </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="single-course.html"
-                                >
-                                  Course Details
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="single-course-two.html"
-                                >
-                                  Course Details v2
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="single-course-three.html"
-                                >
-                                  Course Details v3
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="single-course-four.html"
-                                >
-                                  Course Details v4
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  class="mobile-menu-link"
-                                  href="single-course-five.html"
-                                >
-                                  Course Details v5
-                                </a>
-                              </li>
+                            
+                           
                               <li>
                                 <a
                                   class="mobile-menu-link"
                                   href="single-course-free.html"
                                 >
-                                  Course Details Free
+                                  Free Courses
                                 </a>
                               </li>
                             </ul>
@@ -201,27 +163,20 @@ const Header = () => {
                                 <a href="index.html#">Others</a>
                               </li>
                               <li>
-                                <a href="become-instructor.html">
+                                <a href="/become-an-instructor">
                                   Become an Instructor
                                 </a>
                               </li>
                               <li>
-                                <a href="instructor-profile.html">
-                                  Instructor Profile
+                                <a href="/instructors">
+                                  Instructors
                                 </a>
                               </li>
+                             
                               <li>
-                                <a href="instructor.html">Instructor</a>
+                                <a href="/pricing">Subscription Plans</a>
                               </li>
-                              <li>
-                                <a href="pricing.html">Membership Plan</a>
-                              </li>
-                              <li>
-                                <a href="log-in.html">Log In</a>
-                              </li>
-                              <li>
-                                <a href="registration.html">Registration</a>
-                              </li>
+                             
                             </ul>
                             <div class="thumbnav-area">
                               <a
@@ -237,7 +192,7 @@ const Header = () => {
                                 <span>Create Course</span>
                               </a>
 
-                              <a
+                              {/* <a
                                 href="lesson-details.html"
                                 class="single-thumbnav mash"
                               >
@@ -248,7 +203,7 @@ const Header = () => {
                                   />
                                 </div>
                                 <span>Lesson Details</span>
-                              </a>
+                              </a> */}
 
                               <a href="instructor.html" class="single-thumbnav">
                                 <div class="icon">
@@ -257,7 +212,7 @@ const Header = () => {
                                     alt="nav"
                                   />
                                 </div>
-                                <span>Instructor</span>
+                                <span>Instructors</span>
                               </a>
                             </div>
                           </li>
@@ -306,10 +261,10 @@ const Header = () => {
                     </div>
                   </div>
                   <div class="buttons-area">
-                    <a href="log-in.html" class="rts-btn btn-border">
+                    <a onClick={() => setShowLogin(true)} class="rts-btn btn-border">
                       Log In
                     </a>
-                    <a href="registration.html" class="rts-btn btn-primary">
+                    <a onClick={() => setShowLogin(true)} class="rts-btn btn-primary">
                       Sign Up
                     </a>
                   </div>

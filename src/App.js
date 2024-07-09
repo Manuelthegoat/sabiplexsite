@@ -7,18 +7,19 @@ import LoginSignUp from "./Components/LoginSignUp";
 
 function App() {
   const [authenticated, setAuthenticated] = useState(true);
+  const [showLogin, setShowLogin] = useState(false);
   return (
     <>
-      {authenticated === true ? (
+      {showLogin === false ? (
         <>
           {" "}
-          <Header />
+          <Header setShowLogin={setShowLogin} />
           <Routing />
           <Footer />
           {/* <Cart /> */}
         </>
       ) : (
-        <LoginSignUp setAuthenticated={setAuthenticated} />
+        <LoginSignUp setShowLogin={setShowLogin} />
       )}
     </>
   );
