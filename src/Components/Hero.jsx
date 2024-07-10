@@ -3,6 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
+    <div className="space2"></div>
       <div class="banner-two-flow-1920">
         <div class="banner-area-one v-2 bg_image shape-move">
           <div class="container">
