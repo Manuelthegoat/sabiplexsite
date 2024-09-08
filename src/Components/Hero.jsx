@@ -96,7 +96,7 @@ const Hero = () => {
               </div>
               <div class="col-lg-6 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1">
                 <div class="banner-right-img">
-                  <img src="assets/images/banner/05.png" alt="banner" />
+                  <img src="assets/images/banner/student.png" alt="banner" />
                 </div>
               </div>
             </div>

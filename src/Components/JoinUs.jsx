@@ -8,7 +8,7 @@ const JoinUs = () => {
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="thumbnail-jointeam-one pl--70">
-                        <img src="assets/images/instructor/02.png" alt="join"/>
+                        <img src="assets/images/banner/student2.png" alt="join"/>
                         <div class="shape-area-one shape-image">
                             <img src="assets/images/instructor/shape/01.png" alt="shape" data-speed="0.04" class=" shape one"/>
                             <img src="assets/images/instructor/shape/02.png" alt="shape" data-speed="0.04" data-revert="true" class=" shape two"/>
