@@ -55,9 +55,9 @@ const LoginSignUp = ({ setShowLogin }) => {
             <div class="col-lg-6">
               <div class="contact-thumbnail-login-p mt--100">
                 <img
-                  src="assets/images/banner/login-bg.png"
-                  width="600"
-                  height="495"
+                  src="assets/images/banner/anime.gif"
+                  width="400"
+                  height="295"
                   alt="login-form"
                 />
               </div>
